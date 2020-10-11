@@ -1,0 +1,67 @@
+@import 'components/normalize';
+@import 'components/header';
+@import 'components/about';
+@import 'components/works';
+@import 'components/skillz';
+@import 'components/contact';
+@import 'components/footer';
+
+
+html {
+  font-size: 62.5%;
+}
+
+h2 {
+  font-size: 4rem;
+  padding: 10px 0 10px 0;}
+
+h3 {
+  font-size: 3rem;
+  padding: 10px 0 10px 0;}
+
+h4 {
+  font-size: 2rem;
+  padding: 10px 0 10px 0;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: "Merriweather", serif;
+  line-height: 3rem;
+  padding-bottom: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  background-color: #fff;
+}
+
+a {
+  font-size: 1.6rem;
+  padding: 0 0 5px 0;
+  color: #000;
+  transition: all .3s;
+  &:hover, &:focus{
+    color: #00ffd2; 
+  }
+}
+
+i {
+    font-size: 6rem;
+}
+
+.num1, .num2, .num3, .num4 {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 580px) {
+  .section {
+    padding: 25px 0;
+  }
+}

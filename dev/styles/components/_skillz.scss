@@ -1,0 +1,35 @@
+
+#skillz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5% 10% 5% 10%;
+
+    img {
+      display: inline-block;
+      margin: 20px;
+      height: 60px;
+    }
+
+    .skillz_wrapper {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    h2 {
+        margin: 0 auto;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    #skillz {
+        width: 100%;
+            img {
+                height: 40px;
+            }
+    }
+}
